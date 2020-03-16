@@ -75,7 +75,7 @@
 }
 
 .loaderLogo {
-    background: url(../img/invisio.png) no-repeat center center;
+    background: url(../img/logo.png) no-repeat center center;
     animation: loaderOpacity 800ms linear infinite alternate;
 }
 
