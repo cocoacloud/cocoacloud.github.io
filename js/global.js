@@ -217,7 +217,15 @@ $(function() {
       var filterValue = $( this ).attr('data-filter');
       // use filterFn if matches value
       filterValue = filterFns[ filterValue ] || filterValue;
-      $grid.isotope({ filter: filterValue });
+	  $grid.isotope({ filter: filterValue });
+	  $('.grid').isotope({
+		hiddenStyle: {
+		  opacity: 0
+		},
+		visibleStyle: {
+		  opacity: 1
+		}
+	  });
     });
     
     // change is-checked class on buttons
